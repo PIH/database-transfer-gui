@@ -1,0 +1,2 @@
+pylint
+mysql-connector-python
