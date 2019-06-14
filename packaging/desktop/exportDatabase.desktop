@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Exportar Baso de Datos
+Comment=Para exportar basos de datos de MySQL
+Exec=/usr/local/bin/export_database
+Icon=/usr/share/icons/hicolor/scalable/apps/exportDatabase.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;
