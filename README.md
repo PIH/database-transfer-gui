@@ -1,10 +1,18 @@
-# database-transfer-gui
+# Import/Export Database
 
 Linux GUI applications for dumping and loading MySQL databases.
 
 Will need a small amount of tweaking to get it to work on Windows.
 
-## Spec: Import/Export Database
+## Setup
+
+To install the application, run `./install.sh`.
+
+To just build the standalone executable and a deb file, run `./build.sh`.
+
+To just set up the Python environment for development, run `./dev_setup.sh`.
+
+## Spec
 
 In order to transfer data from offline clinics to the main office, very non-technical users need to be able to create and load MySQL dumps. Users at the offline clinics should only be able to create dumps. Users at the main office do not need to be able to modify data, so those databases can be overwritten freely.
 

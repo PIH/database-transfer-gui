@@ -1,5 +1,7 @@
 #! /bin/sh
 
+./dev_setup.sh
+
 VERSION=0.1
 PACKAGE_NAME=export_database_${VERSION}-1
 
