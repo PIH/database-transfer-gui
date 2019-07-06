@@ -6,7 +6,9 @@ Will need a small amount of tweaking to get it to work on Windows.
 
 ## Setup
 
-To install the application, run `./install.sh`.
+To install the application, use the latest `.deb` released on GitHub.
+
+To build and install the application, run `./build.sh` and then `./install.sh`.
 
 To just build the standalone executable and a deb file, run `./build.sh`.
 
