@@ -20,7 +20,7 @@ mkdir -p ${ICON_DIR}
 
 cp dist/export_database ${BIN_DIR}
 cp packaging/desktop/exportDatabase.desktop ${DESKTOP_DIR}
-cp packaging/icon/db-down.png ${ICON_DIR}
+cp packaging/icon/exportDatabase.png ${ICON_DIR}
 cp -r packaging/DEBIAN ${DEB_ROOT}
 
 dpkg-deb --build ${DEB_ROOT} dist/export_database.deb
