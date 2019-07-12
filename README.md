@@ -1,5 +1,12 @@
 # Import/Export Database
 
+**_Deprecation: This project has been abandoned in favor of the simpler [PIHEMR Ubuntu Apps](https://github.com/PIH/pihemr-ubuntu-apps)_**
+
+_The main reason for its abandonment is difficulty with portability—Brandon couldn't get it running
+on Ubuntu 16.04._
+
+----
+
 Linux GUI applications for dumping and loading MySQL databases.
 
 Will need a small amount of tweaking to get it to work on Windows.
